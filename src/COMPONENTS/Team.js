@@ -46,7 +46,8 @@ function Team(props) {
 
                  { members.map((item)=>
              
-                <div key={item.img} className='  rounded mt-10 p-3 mx-auto w-50 border-brightRed border my-5'>
+                <div key={item.img} className=' mt-10 p-3 mx-auto w-50 border-t-0
+                border-r-0 border-b-brightRed border-l-0 border my-5 shadow-sm'>
                     
                     <img src={item.img} alt="" />
                     <h2 className='text-lg text-center text-brightRedLight'>{item.name}</h2> 
