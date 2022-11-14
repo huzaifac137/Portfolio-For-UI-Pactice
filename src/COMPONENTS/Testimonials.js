@@ -12,7 +12,7 @@ import {AiOutlineArrowRight ,AiOutlineArrowLeft } from "react-icons/ai";
 
 function Testimonials(props) {
 
-    const[disablePrev , setDisablePrev] = useState(false);
+    const[disablePrev , setDisablePrev] = useState(true);
     const[disableNext , setDisableNext] = useState(false);
 
 
